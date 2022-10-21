@@ -1,0 +1,381 @@
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+    color:#4169E1 !important;
+
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-bg.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 31px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+/* Info Panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(65, 105, 225, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    margin-top: -110px;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 90px;
+    height: 75px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+/* Kerja-In */
+.Kerja-In {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Kerja-In h3 {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.Kerja-In h3 span {
+    font-weight: 500;
+}
+
+.Kerja-In p {
+    font-size: 16px;
+    color: #acacac;
+    font-weight: 200;
+    margin: 25px 0;
+}
+
+.Kerja-In img {
+    box-shadow: 0 3px 20px rgba(65, 105, 225, 0.5);
+    border-radius: 20px;
+}
+
+/* Kategori */
+.kategori h3{
+    margin-top: 110px;
+    text-transform: uppercase;
+    color: #4169E1;
+}
+
+.kategori h4{
+  margin-top: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.kategori p{
+  margin-top: 20px;
+  color: #acacac;
+  text-align: center;
+}
+
+.kategori img{
+  width: 50%;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ 
+/* Komentar */
+.card {
+    box-shadow: 0 3px 20px rgba(65, 105, 225, 0.5);
+    border-radius: 12px;
+    background-color: white;
+    padding: 10px;
+    margin-top: -50px;
+    min-height: 370px;
+    margin-bottom: 80px;
+}
+
+.komentar {
+    margin-top: 100px;
+}
+ .komentar p {
+    text-align: center;
+ }
+
+.komentar h3 {
+    margin-top: 110px;
+    color: #4169E1;
+}
+
+.komentar h6 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.komentar figure img {
+    width: 60px;
+    margin: 20px 10px 5px;
+    opacity: 1;
+}
+
+.selanjutnya {
+    text-align: right;
+}
+
+/*.komentar figure img.utama {
+    width: 90px;
+    opacity: 1;
+    margin-top: 10px;
+}*/
+
+.komentar figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.komentar figcaption {
+    text-align: center;
+}
+
+/* tentang */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.tentang{
+    margin-top: 110px;
+    background-color: #4169E1;
+    padding: 70px 0;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.tentang-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.tentang-col h4{
+	font-size: 12px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	font-weight: 500;
+	position: relative;
+}
+
+.tentang-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.tentang-col ul li a{
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.tentang-col p{
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+	transition: all 0.5s ease;
+}
+.tentang-col li{
+    color: #ffffff;
+}
+
+.tentang-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
+.tentang-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.tentang-col h3{
+    font-weight: bold;
+    font-style: roboto;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.unduh{
+    background-color: #4169E1;
+    margin-bottom: 0px;
+}
+
+.tentang p{
+    font-weight: 400;
+    text-align: justify;
+}
+
+/*Footer */
+.footer{
+    background-color: #050505;
+    padding: 3px 0;
+}
+.footer p{
+    display: block;
+    color: #ffffff;
+    font-size: small;
+}
+
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+    .navbar-brand {
+        text-shadow: 1px 1px 1px rgba(65, 105, 225, 0.7);
+    }
+
+    .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #4169E1;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 600px;
+    }
+
+    .jumbotron .display-4 { 
+        font-size: 62px;
+    }
+
+    .Kerja-In {
+        text-align: left;
+    }
+
+    .komentar h5 {
+        font-size: 32px;
+    }
+
+    .tentang-col h4{
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .tentang-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .tentang-col ul li a{
+        font-size: 16px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #ffffff;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .tentang-col p{
+        font-size: 16px;
+        color: white;
+        font-weight: 300;
+    }
+    .tentang-col li{
+        color: #ffffff;
+    }
+    .card {
+        box-shadow: 0 3px 20px rgba(65, 105, 225, 0.5);
+        border-radius: 12px;
+        background-color: white;
+        padding: 10px;
+        margin-top: -50px;
+        min-height: 370px;
+    }
+    .tentang-col h3{
+        font-weight: bold;
+        font-style: roboto;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .unduh{
+        background-color: #4169E1;
+    }
+}
